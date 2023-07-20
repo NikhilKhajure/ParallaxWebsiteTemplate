@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.55s ease-in;
+}
+.main{
+    
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    transition: all 0.55s ease-in;
+
+}
+.first{
+    background-image: url(img1/img1\ \(2\).jpg);
+}
+.second{
+    background-image: url(img1/img1\ \(1\).jpg);
+}
+.third{
+    background-image: url(img1/img1\ \(3\).jpg);
+}
+.forth{
+    background-image: url(img1/img1\ \(4\).jpg);
+}
+.text{
+    background-color: #313534;
+    color: white;
+    padding: 30px 70px;
+    transition: all 0.55s ease-in;
+    
+    
+}
+.sec1{
+    padding: 40px 50px;
+    text-align: center;
+    background-color: #282e34;
+    color: white;
+    letter-spacing: 5px;
+    transition: all 0.55s ease-in;
+    
+}
+.heading{
+    padding-bottom: 15px;
+}
